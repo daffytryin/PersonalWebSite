@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikalar - Sümeyye Saban</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMyy7AE5RjLd/vHCpqs0v/V8Y1PqM5thFENB7GJ" crossorigin="anonymous">
+    <style>
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            flex: 1;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            background-color: #6200ea;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6200ea;
+            font-weight: 500;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            color: #6200ea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .certs-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .certs-list li {
+            flex: 1 1 calc(50% - 30px);
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .certs-list li i {
+            color: #6200ea;
+            font-size: 1.2em;
+        }
+
+        .certs-list li a {
+            color: #333;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #6200ea;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #4b00c1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sümeyye Saban</h1>
+        <p>Elektrik ve Elektronik Mühendisliği Öğrencisi</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+            <li><a href="projects.html">Projeler ve Organizasyonlar</a></li>
+            <li><a href="certifications.html">Sertifikalar</a></li>
+            <li><a href="skills.html">Yetenekler</a></li>
+            <li><a href="experience.html">Deneyimler</a></li>
+            <li><a href="education.html">Eğitim</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="certifications">
+            <h2>Sertifikalar</h2>
+            <ul class="certs-list">
+                <li><i class="fas fa-certificate"></i> <strong>Yazılım Mühendisliği Sertifikası</strong>
+                    <br>Kuruluş Adı, Tarih</li>
+                <li><i class="fas fa-certificate"></i> <strong>Veri Bilimi Temel Eğitimi</strong>
+                    <br>Coursera, 2023</li>
+                <!-- Diğer sertifikalar burada yer alabilir -->
+            </ul>
+            <a href="index.html" class="back-button">Geri</a>
+        </section>
+    </div>
+
+</body>
+</html>
